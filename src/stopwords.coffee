@@ -1,5 +1,5 @@
 _ = require('lodash')
-stopwordsData = require('stopwordsdata.js')
+stopwordsData = require('./stopwordsdata')
 
 cache = {}
 
