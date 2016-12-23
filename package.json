@@ -1,6 +1,6 @@
 {
   "name": "@knod/unfluff",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A web page content extractor based on https://github.com/ageitgey/node-unfluff, but ready for browserify",
   "homepage": "https://github.com/knod/node-unfluff",
   "keywords": [
