@@ -2,10 +2,9 @@
 
 An automatic web page content extractor for Node.js!
 
-[![Build Status](https://travis-ci.org/ageitgey/node-unfluff.svg?branch=master)](https://travis-ci.org/ageitgey/node-unfluff)
+[![Build Status](https://travis-ci.org/knod/node-unfluff.svg?branch=master)](https://travis-ci.org/knod/node-unfluff)
 
-Automatically grab the main
-text out of a webpage like this:
+Automatically grab the main text out of a webpage like this:
 
 ```
 extractor = require('unfluff');
@@ -29,22 +28,19 @@ Please don't use this for:
 
 ## Credits / Thanks
 
-This library is largely based on [python-goose](https://github.com/grangier/python-goose)
-by [Xavier Grangier](https://github.com/grangier) which is in turn based on [goose](https://github.com/GravityLabs/goose)
-by [Gravity Labs](https://github.com/GravityLabs). However, it's not an exact
-port so it may behave differently on some pages and the feature set is a little
-bit different.  If you are looking for a python or Scala/Java/JVM solution,
-check out those libraries!
+This module is a front-endable (with browserify) version of [unflufff by ageitgey](https://github.com/ageitgey/node-unfluff) who has this to say about the tool: This library is largely based on [python-goose](https://github.com/grangier/python-goose) by [Xavier Grangier](https://github.com/grangier) which is in turn based on [goose](https://github.com/GravityLabs/goose) by [Gravity Labs](https://github.com/GravityLabs). However, it's not an exact port so it may behave differently on some pages and the feature set is a little bit different.  If you are looking for a python or Scala/Java/JVM solution, check out those libraries!
+
+This README is, in most part, the same as ageitgey's. This fork simply removes the use of the `fs` module, allowing the tool to be browserified and used in the front end as well as the backend. I hope the module will be replaced by an fs-free version of the original, but for now here it is.
 
 ## Install
 
 To install the command-line `unfluff` utility:
 
-    npm install -g unfluff
+    npm install -g @knod/unfluff
 
 To install the `unfluff` module for use in your Node.js project:
 
-    npm install --save unfluff
+    npm install --save @knod/unfluff
 
 ## Usage
 
